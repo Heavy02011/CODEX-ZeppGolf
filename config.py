@@ -6,7 +6,7 @@ class Config:
     """Configuration settings for the Golf Swing Analysis Dashboard"""
     
     # Database paths
-    DB_PATH: Path = Path('/home/blueaz/Downloads/SensorDownload/May2024/Golf3.db')  # Default path to database
+    DB_PATH: Path = Path(__file__).parent / 'Golf3.db'  # Path to database in current directory
     
     # Time and timezone settings
     TIMEZONE: str = 'America/Phoenix'
