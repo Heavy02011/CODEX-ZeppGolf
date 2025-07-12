@@ -23,8 +23,13 @@ ZeppGolf is a data analysis tool and interactive dashboard designed to analyze g
 - `main.py` - Main script for batch analysis and feature ranking.
 - `streamlit_app.py` - Streamlit dashboard for interactive exploration.
 - `dashboard.py` - Alternative dashboard interface (Streamlit).
-- `wrangle.py` - Data wrangling utility functions.
-- Other supporting modules for plotting, modeling, and configuration.
+- `wrangle.py` - Data wrangling utility functions used to query the SQLite database.
+- `data_processing.py` - Helper functions for filtering, splitting, and basic statistics.
+- `modeling.py` - Ridge regression pipeline and utilities for training/evaluation.
+- `visualization.py` - Matplotlib and Plotly helpers for all plots.
+- `config.py` - Central configuration dataclass with default paths and settings.
+- `swing_analysis.py` - Experimental 3D swing viewer (requires additional modules).
+- `Golf3.db` - Example SQLite database containing sample swing data.
 
 ## Installation
 
